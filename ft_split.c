@@ -6,7 +6,7 @@
 /*   By: mtomomit <mtomomit@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/01 20:19:19 by mtomomit          #+#    #+#             */
-/*   Updated: 2022/04/28 16:28:44 by mtomomit         ###   ########.fr       */
+/*   Updated: 2023/05/24 12:46:03 by mtomomit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ static size_t	ft_countc(const char *s, char c)
 			counter++;
 	}
 	return (counter);
-}	
+}
 
 static void	splitstr(char **str, char c, char const *s, size_t countc)
 {
